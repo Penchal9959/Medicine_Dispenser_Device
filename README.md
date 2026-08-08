@@ -1,25 +1,30 @@
 # Medicine Dispenser
 
-> **This repository is archived.** The reviewed and corrected version
-> of this project lives in [embedded-iot-projects / medicine-dispenser](https://github.com/Penchal9959/embedded-iot-projects/tree/main/medicine-dispenser), alongside the
-> others from the same series. Work happens there; nothing here changes.
+> **Archived.** The reviewed and corrected version of this project lives in
+> [embedded-iot-projects / medicine-dispenser](https://github.com/Penchal9959/embedded-iot-projects/tree/main/medicine-dispenser), alongside the others from the same series. Work happens there;
+> nothing here changes.
 
----
+## What this was
 
-## Original description
+A pill reminder with four daily alarms. At each scheduled time a buzzer sounds
+and the LED above the right compartment lights, so the correct dose can be
+found without reading a label. It was built for a diabetic relative who could
+not.
 
-MEDICINE DISPENSER, It is completely designed for the diabetes patients and also uneducated people or who are doesn't know when and what medicine to take. Which is helps take the medicine time to time with help of alarm option.
+The schedule is set with pushbuttons and held in EEPROM, so it survives a
+power cut. A DS1307 keeps the time on a coin cell.
 
-Components:
+## Hardware
 
-1.Arduino UNO
-2.DS1307 RTC Module
-3.Led's
-4.Buzzer
-5.PushButtons
-6.9v Battery
+Arduino UNO, DS1307 real-time clock, pushbuttons, LEDs, buzzer.
 
-Skills Used:
+## Why it was archived
 
-1.Arduino IDE
-2.DS1307 RTC module Libraries
+Twelve one-off repositories of two files each is not a portfolio, it is a
+list. They were consolidated into one maintained repository with the
+documentation and the build check they never had. This one is kept so
+existing links still resolve.
+
+## Licence
+
+[MIT](LICENSE)
