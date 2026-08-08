@@ -1,0 +1,18 @@
+# Arduino build output
+build/
+*.hex
+*.elf
+*.bin
+
+# Credentials - never commit
+secrets.h
+.env
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*~
+*.swp
